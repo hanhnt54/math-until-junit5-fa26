@@ -8,16 +8,6 @@
 
 name: Math Utility (CI included) | © 2026 by hanhnt
 
-# This workflow will build a Java project with Maven, and cache/restore any dependencies to improve the workflow execution time
-# For more information see: https://docs.github.com/en/actions/automating-builds-and-tests/building-and-testing-java-with-maven
-
-# This workflow uses actions that are not certified by GitHub.
-# They are provided by a third-party and are governed by
-# separate terms of service, privacy policy, and support
-# documentation.
-
-name: Math Utility Project (CI included) | © 2026 by hanhnt
-
 on:
   push:
     branches: [ "main" ]    # Lấy code từ nhánh main nếu có ai push code lên. Có thể thay bằng nhánh dev... 
